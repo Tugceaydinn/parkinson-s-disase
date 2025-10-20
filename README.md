@@ -95,5 +95,3 @@ Feature selection and SHAP analysis
 
 Real-time voice detection prototype
 
-yaml
-Kodu kopyala
