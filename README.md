@@ -25,6 +25,10 @@ parkinson-s-disase/
 │ └─ README.md # link/instructions if data not included
 ├─ results/ # generated graphs & metrics
 │ └─ .gitkeep
+├─ pd.ipynb # main notebook (regression + classification)
+├─ requirements.txt # dependencies
+└─ README.md
+
 
 
 > ℹ️ `.gitkeep` is only used to keep the results folder visible in the repo.
@@ -38,16 +42,20 @@ parkinson-s-disase/
    git clone https://github.com/Tugceaydinn/parkinson-s-disase.git
    cd parkinson-s-disase
 Install dependencies
-pip install -r requirements.txt
 
+
+pip install -r requirements.txt
 Place the dataset
 
 Put parkinsons.csv inside the data/ folder.
 
-The notebook uses: DATA_PATH = 'data/parkinsons.csv'
-Run the notebook
-jupyter notebook "pd.ipynb"
+The notebook uses:
 
+
+DATA_PATH = 'data/parkinsons.csv'
+Run the notebook
+
+jupyter notebook "pd.ipynb"
 Outputs
 
 results/roc_curve.png – ROC curve plot
@@ -68,21 +76,17 @@ Random Forest	Classification	Acc ↑	0.91
 📈 Visualizations
 
 📚 References
-
 UCI Parkinson’s Disease Dataset
 
 Little MA, McSharry PE, Hunter EJ, Spielman J, Ramig LO (2009).
 
 👩‍💻 Author
-
 Tuğçe Aydın
 🎓 MSc Data & Computational Science @ UCD
 📍 Dublin, Ireland
-LinkedIn
- · GitHub
+LinkedIn · GitHub
 
 🌟 Future Work
-
 Hyperparameter tuning
 
 Exploring MLP / deep learning baselines
@@ -91,6 +95,5 @@ Feature selection and SHAP analysis
 
 Real-time voice detection prototype
 
-├─ pd (1).ipynb # main notebook (regression + classification)
-├─ requirements.txt # dependencies
-└─ README.md
+yaml
+Kodu kopyala
